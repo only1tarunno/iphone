@@ -102,4 +102,14 @@
     .ipad-tab {
         border-radius: 10px;
     } 
+    .item-4-content {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .battery-img-2{
+        margin: 30px 0;
+    }
+    .work-img{
+        width: 80%;
+    }
 }

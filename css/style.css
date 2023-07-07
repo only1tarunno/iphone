@@ -137,7 +137,7 @@ position: relative;
     transition: width 0.3s ease;
 }
 
-.btn {
+.search-btn {
     background-color: #000;
     color: #fff;
     border: 0;
@@ -156,7 +156,7 @@ position: relative;
     outline: none;
     
 }
-.btn:hover{
+.search-btn:hover{
     color: #fff;
 }
 .search.active .input {
@@ -220,6 +220,31 @@ h1,
 .item-4-img{
     display: none;
 }
+.cs-btn{
+    font-size: 18px;
+    color: #2e6fb7;
+    border: 1px solid #2e6fb7;
+    padding: 8px 16px;
+    margin-right: 5px;
+    background-color: transparent;
+}
+.cs-btn:hover{
+    background-color: #2e6fb7;
+    color: #fff;
+}
+.work-img{
+    width: 50%;
+    margin: auto;
+}
+.battery-img {
+    width: 50%;
+    margin: 30px 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.item-4-content{
+    margin-left: 30px;
+}
   /* mannai start here */
   .mannai-contain{
     background-color: #fff;
@@ -258,7 +283,7 @@ h1,
 .ipad-tab h2{
     margin-bottom: 10px;
 }
-.cs-btn a {
+.cs-btn-2 a {
     margin-right: 15px;
 }
 .ipad-tab-img{
