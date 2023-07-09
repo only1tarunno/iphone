@@ -248,6 +248,12 @@ h1,
     margin-top: -80px;
     margin-bottom: -80px;
 }
+#apple-mac{
+    width: 20%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: -30px;
+}
   /* mannai start here */
   .mannai-contain{
     background-color: #fff;

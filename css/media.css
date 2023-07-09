@@ -68,6 +68,10 @@
 }
 /*------------------------------------------------------------------------------------- mobile device-------------------------------------------------------------------------------------- */
 @media (max-width: 575px) {
+    #banner {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
     h1, .carousel-inner h2 {
         font-size: 26px;
         margin-bottom: 10px;
@@ -95,7 +99,7 @@
         margin-bottom: -30px;
     }
     #apple-mac{
-        width: 70%;
+        width: 50%;
     }
     .mannai-text {
         padding: 0px;
@@ -136,6 +140,8 @@
         margin: 20px auto;
     }
     #btry-img{
+        width: 70%;
+        margin: auto;
         margin-top: -20px;
         margin-bottom: -30px;
     }
