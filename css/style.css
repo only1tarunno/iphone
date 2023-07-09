@@ -226,7 +226,6 @@ h1,
     border: 1px solid #2e6fb7;
     padding: 8px 16px;
     margin-right: 5px;
-    margin-top: 10px;
     background-color: transparent;
 }
 .cs-btn:hover{
@@ -234,10 +233,10 @@ h1,
     color: #fff;
 }
 .work-img{
-    width: 30%;
+    width: 45%;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .battery-img {
     width: 50%;
@@ -245,11 +244,9 @@ h1,
     margin-right: auto;
     margin-left: auto;
 }
-#touch-mac {
-    width: 26%;
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+#touch-mac{
+    margin-top: -80px;
+    margin-bottom: -80px;
 }
   /* mannai start here */
   .mannai-contain{
@@ -263,6 +260,9 @@ h1,
  text-align: left;
  padding: 100px;
   }
+  .mannai-text h2 {
+    
+}
   .mannai-text p {
     margin-top: 20px;
 }

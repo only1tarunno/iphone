@@ -90,6 +90,9 @@
     }
     #touch-mac {
         width: 80%;
+        margin: auto;
+        margin-top: -30px;
+        margin-bottom: -30px;
     }
     #apple-mac{
         width: 70%;
@@ -138,6 +141,8 @@
     }
     .work-img{
         width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .cs-btn {
         margin-right: 0px;
