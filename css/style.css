@@ -173,7 +173,7 @@ position: relative;
     margin-bottom: 100px;
 }
 .carousel-inner {
-    min-height: 700px;
+    min-height: 600px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -226,6 +226,7 @@ h1,
     border: 1px solid #2e6fb7;
     padding: 8px 16px;
     margin-right: 5px;
+    margin-top: 10px;
     background-color: transparent;
 }
 .cs-btn:hover{
@@ -233,8 +234,10 @@ h1,
     color: #fff;
 }
 .work-img{
-    width: 50%;
+    width: 30%;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .battery-img {
     width: 50%;
@@ -242,8 +245,11 @@ h1,
     margin-right: auto;
     margin-left: auto;
 }
-.item-4-content{
-    margin-left: 30px;
+#touch-mac {
+    width: 26%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
   /* mannai start here */
   .mannai-contain{
@@ -257,9 +263,6 @@ h1,
  text-align: left;
  padding: 100px;
   }
-  .mannai-text h2 {
-    
-}
   .mannai-text p {
     margin-top: 20px;
 }

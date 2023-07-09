@@ -68,6 +68,32 @@
 }
 /*------------------------------------------------------------------------------------- mobile device-------------------------------------------------------------------------------------- */
 @media (max-width: 575px) {
+    h1, .carousel-inner h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .carousel-inner p {
+        font-size: 15px;
+    }
+    .hero-p {
+        max-width: 300px !important;
+        padding-bottom: 0 !important;
+    }
+    .hero-title-2 {
+        padding-bottom: 0px;
+    }
+    .carousel-inner p, .hero-title-11 {
+        max-width: 300px;
+    }
+    #h-title-1{
+        margin-bottom: 20px;
+    }
+    #touch-mac {
+        width: 80%;
+    }
+    #apple-mac{
+        width: 70%;
+    }
     .mannai-text {
         padding: 0px;
     }
@@ -102,13 +128,13 @@
     .ipad-tab {
         border-radius: 10px;
     } 
-    .item-4-content {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
     .battery-img{
-        margin: 30px 0;
-        width: 100%;
+        width: 90%;
+        margin: 20px auto;
+    }
+    #btry-img{
+        margin-top: -20px;
+        margin-bottom: -30px;
     }
     .work-img{
         width: 80%;
