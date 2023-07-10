@@ -173,7 +173,7 @@ position: relative;
     margin-bottom: 100px;
 }
 .carousel-inner {
-    min-height: 550px;
+    min-height: 600px;
     text-align: center;
     display: flex;
     flex-direction: column;
