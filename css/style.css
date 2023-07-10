@@ -309,6 +309,11 @@ h1,
 .ipad-tab-img{
     min-height: 280px;
 }
+.cs-btn-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 /* INTERACT SECTION */
 .interact{
     padding-bottom: 60px;
