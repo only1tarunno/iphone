@@ -55,9 +55,12 @@ a:hover{
 
 /* ------------global ends---------- */
 /* header starts */
+header{
+    margin-top: 20px;
+}
 .header{
     background-color: #000;
-    box-shadow: 0px 1px 8px 0 #ddd;
+    box-shadow: 0px 1px 8px 0 #ddd;   
 }
 #nav-hamburger{
     color: #fff;
@@ -353,7 +356,4 @@ form{
     padding: 10px 30px;
     border-radius: 8px;
     border: 1px solid #212529;
-}
-.fixed-top {
-    top: 20px;
 }

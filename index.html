@@ -18,8 +18,8 @@
 
 <body>
   <!-- header starts -->
-  <header>
-          <div class="header fixed-top" id="myDiv">
+  <header class="sticky-top">
+          <div class="header">
             <nav class="navbar navbar-expand-lg">
               <div class="container  ">
                 <a class="navbar-brand" id="nav-hamburger" href="index.html"><i class="fa-solid fa-bars"></i></a>
@@ -435,19 +435,6 @@
           search.classList.toggle('active');
           input.focus();
       })
-    </script>
-    <script>
-      window.addEventListener('scroll', function() {
-      var div = document.getElementById('myDiv');
-      var topOffset = 10; // The desired top offset when scrolling
-      
-      if (window.pageYOffset > topOffset) {
-        div.style.top = '0px';
-      } else {
-        div.style.top = '20px';
-      }
-    });
-
     </script>
 </body>
 </html>
