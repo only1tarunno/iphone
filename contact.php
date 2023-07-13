@@ -15,7 +15,7 @@ $body = "Name: $fname\nEmail: $email\nCompany: $company\nPhone: $phone\nMessage:
 
 // Send email
 if (mail($to, $subject, $body, $headers)) {
-    echo 'Message sent successfully!';
+    echo 'Thank You.<br>Your inquiry has been submitted successfully.<br>We will be in touch with you as soon as possible.';
 } else {
     echo 'Message could not be sent.';
 }
